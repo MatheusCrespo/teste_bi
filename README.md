@@ -24,7 +24,7 @@ Serão analisados 4 pontos para avaliar a aptidão do candidato a vaga
 - Manipulação dos dados;
 - Percepção de qual o melhor tipo de modelagem para o problema proposto;
 - Criação de painéis;
-	- Qlikview;
+	- Qlikview (opcional);
 	- Power BI;
 
 ## Estrutura do projeto
