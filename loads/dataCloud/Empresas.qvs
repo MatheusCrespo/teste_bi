@@ -1,0 +1,3 @@
+ODBC CONNECT TO Matheus;
+SQL SELECT *
+FROM "teste_bi".dbo.empresas;

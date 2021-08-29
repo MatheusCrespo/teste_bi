@@ -1,0 +1,4 @@
+Directory;
+LOAD * FROM [..\..\files\dataMirrors\EmpresasCalc.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ';', no quotes);
+

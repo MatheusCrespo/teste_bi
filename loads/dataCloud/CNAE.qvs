@@ -1,0 +1,4 @@
+Directory;
+LOAD * FROM [..\..\files\dataTransformed\transformCNAE.csv]
+(txt, utf8, embedded labels, delimiter is ',', msq);
+

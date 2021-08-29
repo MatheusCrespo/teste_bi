@@ -1,0 +1,13 @@
+Directory;
+LOAD * FROM [..\..\files\dataMirrors\Setores e Ramos de Atividade.csv]
+(txt, codepage is 1252, embedded labels, delimiter is ';', msq, filters(
+Replace(1, bottom, StrCnd(null)),
+Remove(Col, Pos(Top, 7)),
+Remove(Col, Pos(Top, 6)),
+Remove(Col, Pos(Top, 5)),
+Remove(Col, Pos(Top, 4))
+));
+
+
+
+
