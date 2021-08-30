@@ -1,6 +1,9 @@
 Directory;
 LOAD * FROM [..\..\files\dataMirrors\SRAmongo.csv]
-(txt, utf8, embedded labels, delimiter is ',', msq);
+(txt, utf8, embedded labels, delimiter is ',', msq, filters(
+Replace(3, bottom, StrCnd(null))
+));
+
 
 
 
